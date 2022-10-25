@@ -1,0 +1,474 @@
+        .our_about_left_content * {
+            padding-top: 5px;
+        }
+        .our_about_left_content h2 {
+            padding: 3% 0%;
+        }
+        .faq_ques .panel.panel-default .panel-heading h4 {
+            margin-top: 4%;
+        }
+        .teams .card1 img.card1_img {
+            border-radius: 100%;
+            border: none;
+            max-width: 280px;
+            margin: 10px auto;
+            border-radius: 50%;
+            border: 4px solid rgb(255, 255, 255);
+            object-fit: cover;
+        }
+        .teams .card1 img.card1_img-sm {
+            border-radius: 100%;
+            border: none;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 255, 255);
+            object-fit: cover;
+        }
+        .teams .card1 .card1_in {
+            position: initial;
+            box-shadow: none;
+        }
+        .teams .card1 .card1_in .card1_name, .teams .card2 .card2_in .card2_name, .teams .card3 .card3_in .card3_name {
+            font-size: 20px;
+            padding-top: 4%;
+        }
+        .teams .card1 .card1_in .card1_job .teams .card2 .card2_in .card2_job, .teams .card3 .card3_in .card3_job {
+            font-size: 16px;
+        }
+        .why_choose .choose_outer {
+            box-shadow: none;
+        }
+        .why_choose {
+            padding: 50px 0px 0px;
+        }
+        #accordion .box {
+            border-radius: 3px;
+            border: 1px solid #a57d24;
+            margin-bottom: 4px;
+        }
+        #accordion .title {
+            border-radius: 3px;
+            background:#a57d24;
+            color: white;
+        }
+        #accordion .box .btn {
+            width: 100%;
+            text-align: right;
+            background: #a57d24;
+            color: white;
+            border-radius: 1px;
+        }
+        #accordion .box span {
+            float: left;
+            color: white;
+        }
+        .card_bank h3 {
+            font-size: 18px !important;
+            font-weight: normal !important;
+            text-align: center !important;
+            padding-top: 8px;
+        }
+        .card_bank p {
+            text-align: center !important;
+        }
+        .card_bank p input {
+            background: transparent;
+            border: none;
+        }
+        .card_bank p button {
+            background: transparent;
+            border: none;
+            font-weight: 700;
+            color: #a57d24;
+        }
+        .card_bank p strong {
+            padding: 0px 4px;
+        }
+
+        .line {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .line h4 {
+            font-weight: bold;
+            font-weight: 800;
+            font-size: 24px;
+        }
+        .line .line-left {
+            border-bottom: 1px solid rgb(165, 125, 36);
+            margin: 4px;
+            width: 60px;
+            margin-bottom: 20px;
+        }
+        .line .line-right {
+            border-bottom: 1px solid rgb(165, 125, 36);
+            margin: 4px;
+            width: 60px;
+            margin-bottom: 20px;
+        }
+        #two li {
+            padding-top: 24px;
+        }
+        div.line-o {
+            border-bottom: 1px solid rgb(165, 125, 36);
+            margin: 0px 16px 28px;
+            max-width: 400px;
+        }
+        .dot {
+            height: 4px;
+            width: 4px;
+            background-color: rgb(165, 125, 36);
+            border-radius: 50%;
+            margin: 14px 4px 0px;
+        }
+        .dot-2 {
+            margin: 10px 4px 0px;
+        }
+        @media only screen and (min-width: 992px) {
+            .mr-lg-38 {
+                margin-right: 38%;
+            }
+        }
+        @media only screen and (max-width: 640px) {
+            .small-medium {
+                font-size: 18px !important;
+            }
+        }
+        @media only screen and (max-width: 640px) {
+            div.ir-map {
+                max-width: 100%;
+                overflow: auto;
+                margin-bottom: 28px;
+            }
+        }
+        [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+            cursor: pointer;
+            background: #A57D24;
+            border: 1px solid #A57D24;
+            border-radius: 2px;
+            color: #fff;
+        }
+        #btn_mobile_menu svg>path {
+            color: white !important;
+        }
+        #map-page svg>path {
+            transition: 200ms;
+            transition-timing-function: ease-in-out;
+            -webkit-transition: 200ms;
+            -webkit-transition-timing-function: ease-in-out;
+            stroke: white;
+            stroke-width: 1px;
+            stroke-linejoin: round;
+            cursor: pointer
+        }
+        #map-page svg path:hover {
+            fill: #a57d24;
+        }
+        #map-page  #accordion .title {
+            background: #777777;
+        }
+        #partial img.w-100 {
+            max-height: 460px;
+        }
+        #partial .btn-b-g {
+            background: #24441E ;color: white;border-radius: 20px;padding: 8px 24px;
+        }
+        #partial .btn-g {
+            border: 1px solid #24441E ;color: #24441E;border-radius: 20px;padding: 8px 24px;
+        }
+        #partials div.lorem2 {
+            position: absolute;
+            bottom: 50px;
+            width: 94%;
+        }
+        #partials div.lorem2 h2 {
+            color: #A57D24;
+            font-size: 18px;
+        }
+        #partials div.lorem2 p {
+            font-size: 16px;
+            color: #000000bf;
+        }
+        #partials div.title {
+            max-width: 800px;
+        }
+        #partials div.title h2 {
+            text-align: center;
+            color: #A57D24;
+            margin: 70px 0px 30px;
+            font-weight: 800;
+        }
+        #partials div.title p {
+            text-align: justify;
+            margin: 90px 0px 45px;
+        }
+        /* using in partials */
+        #partials h1 {
+            font-weight: 800 !important;
+            font-size: 30px !important;
+        }
+        #partials div.lorem5 h1 {
+            font-weight: unset !important;
+            color: #A57D24;
+            font-size: 26px !important;
+        }
+        #partials div.lorem6 h1 {
+            font-size: 56px !important;
+            font-weight: 700 !important;
+            padding: 20px 0px;
+            color: #682c46;
+        }
+        #partials div.lorem7 h1 {
+            font-weight: unset !important;
+            font-size: 24px !important;
+            padding: 30px 0px;
+        }
+        #partials div.h5-f-24 h5 {
+            font-weight: bold !important;
+        }
+        #partials div.ipsum1 h5 {
+            font-weight: bold !important;
+            font-size: 19px;
+        }
+        #partials div.ipsum2 p {
+            font-size: 14px;
+        }
+        #partials div.lorem7 p {
+            line-height: 28px;
+            color: #000000a3;
+            text-align: justify;
+        }
+        #partials h3 {
+            text-align: center;
+            font-weight: 400;
+            color: #000000a3;
+        }
+        #partials div.h3-white h3 {
+            color: white !important;
+        }
+        #partials h5 , h5 a {
+            color: black;
+            font-weight: bold;
+        }
+        #partials h5 {
+            font-weight: 400 !important;
+        }
+        #partials #accordion h5 {
+            padding-right: 56px;
+        }
+        #partials h5 a:hover {
+            color: #A57D24;
+        }
+        #partials div.small h6 {
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0px !important;
+        }
+        #partials .bg-ligh-gray {
+            background-color: #f6f6f6;
+        }
+        #partials section.bg-ligh-gray div.sec2 {
+            margin: auto 70px;
+        }
+        #partials section.bg-ligh-gray h2 {
+            font-size: 30px;
+            margin: 60px auto;
+            color: #A57D24;
+            font-weight: bold;
+        }
+        #partials button.btn:hover h5 {
+            color: #A57D24;
+        }
+        #accordion p {
+            line-height: 24px;
+            text-align: justify;
+        }
+        #partials section.bg-gray {
+            background: #484848;
+        }
+        #partials div.abs {
+            position: relative;
+            width: 100%;
+            top: -90px;    
+        }
+        #partials div.trans {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgb(255, 255, 255);
+            border-width: 1px;
+            border-color: rgb(165, 125, 36);
+            border-style: solid;
+            border-radius: 12px;
+            box-shadow: rgb(0 0 0 / 10%) 0px 12px 32px -10px;
+            padding: 24px;
+            min-height: 180px;
+            text-align: center;
+            min-height: 218px;
+        }
+        #partials div.trans p {
+            color: #777777;
+            font-size: 14px;
+        }
+        #partials div.link-gold a {
+            background: #a57d24;
+            color: #ffffff;
+            padding: 13px 26px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        #partials div.link-gold a:hover {
+            background: #484848c2;
+        }
+        #partials div.abs2 {
+            position: absolute;
+            background: white;
+            bottom: 0px;
+            right: 0px;
+            width: 290px;
+            height: 200px;
+            padding: 20px;
+        }
+        #partials div.p-cusstome p {
+            line-height: 28px;
+        }
+        #partials div.lorem1 h5 {
+            font-size: x-large;
+        }
+        #partials div.lorem1 a {
+            font-weight: unset;
+        }
+        #partials div.lorem1 div.next h5 {
+            border-bottom: 1px solid #80808045;
+            max-width: 300px;
+            margin: auto;
+            padding: 10px;
+            color: #000000ad;
+        }
+        #partials div.link-gold-full a {
+            display: block;
+            height: auto;
+        }
+        #partials #c4 {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            -moz-box-shadow: inset 0px 850px 500px -500px #fff;
+            -webkit-box-shadow: inset 0px 850px 500px -500px #fff;
+            -o-box-shadow: inset 0px 850px 500px -500px #fff;
+            box-shadow: inset 0px 850px 500px -500px #fff;
+        }
+        #partials #c5 div.abbas1 {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            max-width: 100%;
+        }
+        #partials #c5 h1 {
+            font-size: 20px !important;
+            text-align: center !important;
+            margin: 18px 0px;
+        }
+        #partials #c5 div.lorem6 h1 {
+            font-size: 40px !important;
+            text-align: center !important;
+            margin: 0px;
+            padding: 0px;
+        }
+        #partials #c5 div.lorem7 h1 {
+            font-size: 16px !important;
+            text-align: center !important;
+            margin: 0px;
+        }
+        #partials #c5 div.link-gold {
+            text-align: center !important;
+            margin-top: 38px;
+        }
+        img.img-abbas {
+            max-width: 100%;
+            padding-top: 20px;
+        }
+        #partials div.abs3 {
+            position: absolute;
+            top: 10%;
+            right: 34%;
+            width: 60%;
+        }
+        #partials #accordion .box {
+            border: none;
+        }
+        #partials #accordion .box .btn {
+            padding: 14px 12px 8px;
+        }
+        #partials #accordion p {
+            padding: 12px 24px 24px;
+            font-size: 12px;
+        }
+        #partials #accordion .box span {
+            float: right;
+            font-size: 18px;
+        }
+        @media only screen and (max-width: 640px) {
+            #partials div.img {
+                margin: 24px 0px 100px;
+            }
+            #partials div.mammdad1 {
+                margin-top: 30px;
+            }
+            #partials div.mammdad2 {
+                margin-top: 540px;
+                margin-right: 21px;
+            }
+            #partials #c4 {
+                display: none;
+            }
+            #partials div.title {
+                max-width: 88% !important;
+            }
+            #partials div.reza1 {
+                padding: 26px;
+            }
+            #partials h1 {
+                font-size: 24px !important;            
+            }
+            #partials div.ipsum2 p {
+                font-size: 12px;
+                padding: 0px 12px;
+            }
+            #partials div.abs div.col-lg {
+                padding: 12px 28px;
+            }
+            #partials div.reza2 {
+                padding-bottom: 18px;
+            }
+            #partials div.reza2 p {
+                font-size: 14px;
+            }
+            #partials div.title p {
+                padding: 0px;
+            }
+            #partials div.ipsum1 {
+                padding-bottom: 24px;
+            }
+            #partials section.bg-ligh-gray div.sec2 {
+                margin: auto 28px;
+            }
+            #partials h3 {
+                font-size: 18px;
+            }
+            #partials h5, h5 a {
+                font-size: 16px;
+            }
+        }
+        @media only screen and (min-width: 960px) {
+            #partials #c5 {
+                display: none;
+            }
+        }
+        #btn_mobile_menu svg>path {
+            color: white !important;
+        }

@@ -1,0 +1,34 @@
+    @-webkit-keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes rotate-center{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+    
+    .contact_us_area .c_details_item {
+        padding: 0px;
+        border: none;
+    } 
+    .sec_middle_title {
+        padding-bottom: 40px; 
+    }
+    .contact_us_area .c_details_item .media:hover a {
+        font-size: 18px;
+        color: #000000;
+    }   
+    .contact_us_area .c_details_item .media:hover svg {
+        font-size: 18px;
+        color: #000000;
+        -webkit-animation:rotate-center .6s ease-in-out both;animation:rotate-center .6s ease-in-out both
+    }   
+    .btn-gold {
+        background: #A57D24;
+    }
+    .btn-gold:hover {
+        background: #604816;
+    }
+    .contact_us_area .c_details_item .media .media-body a {
+        font-size: 14px;
+        display: initial;
+    }
+    .contact_us_area h5 {
+        font-size: 18px;
+    }
+    #btn_mobile_menu {
+        background: #A57D24 !important;
+    }

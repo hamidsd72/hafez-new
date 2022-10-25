@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+sitemap: https://karenpharma.com/sitemap.xml
